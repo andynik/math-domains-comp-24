@@ -2,7 +2,7 @@
 
 This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
 
-The filtered dataset will be released upon paper approval.
+**Note:** The filtered dataset will be released upon paper approval.
 
 ## Project Stages
 
@@ -37,6 +37,3 @@ To set up the environment and run the scripts, install the necessary Python libr
 pip install -r requirements.txt
 ```
 
-## License
-
-This project is licensed under the MIT License.
