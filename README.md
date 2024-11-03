@@ -20,6 +20,8 @@ The filtered dataset will be released upon paper approval.
 
 ## Models Used in the Experiment
 
+The open-source models have been quantised using K-means quantisation with the help of [llama.cpp](https://github.com/ggerganov/llama.cpp) library.
+
 | Model                                                                                 | Params | Is quant. | Q. method | Context length | Knowledge cutoff | Model creator  |
 |---------------------------------------------------------------------------------------|--------|-----------|-----------|----------------|------------------|----------------|
 | [GPT-4o-mini-2024-07-18](https://platform.openai.com/docs/models/gpt-4o-mini)         | n/a    | ✘         | -         | 128k           | Oct 2023         | OpenAI         |
