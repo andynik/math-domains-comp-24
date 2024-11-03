@@ -27,7 +27,7 @@ The open-source models have been quantised using K-means quantisation with the h
 | [GPT-4o-mini-2024-07-18](https://platform.openai.com/docs/models/gpt-4o-mini)         | n/a    | ✘         | -         | 128k           | Oct 2023         | OpenAI         |
 | [Mathstral-7B](https://huggingface.co/QuantFactory/mathstral-7B-v0.1-GGUF)            | 7.25B  | ✔         | Q4_K_M    | 32k            | n/a              | Mistral AI     |
 | [Qwen2.5-Math-7B](https://huggingface.co/QuantFactory/Qwen2.5-Math-7B-GGUF)           | 7.62B  | ✔         | Q4_K_M    | 128k           | n/a              | Alibaba Cloud  |
-| [Llama-3.1-8BInstruct](https://huggingface.co/QuantFactory/Meta-Llama-3.1-8B-Instruct-GGUF) | 8.03B  | ✔         | Q4_K_M    | 128k           | Dec 2023         | Meta           |
+| [Llama-3.1-8B-Instruct](https://huggingface.co/QuantFactory/Meta-Llama-3.1-8B-Instruct-GGUF) | 8.03B  | ✔         | Q4_K_M    | 128k           | Dec 2023         | Meta           |
 
 ## Installation
 
