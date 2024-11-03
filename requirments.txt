@@ -3,3 +3,4 @@ matplotlib
 seaborn
 numpy
 scipy
+llama_cpp
