@@ -1,8 +1,8 @@
 # Comparison of Problem-solving Performance Across Mathematical Domains With Large Language Models
 
-This repository contains the code and data used for a research experiment that compares large language models performances across mathematical domains such as algebra, geometry, combinatorics, and number theory. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
+This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains such as algebra, geometry, combinatorics and number theory. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
 
-* The filtered dataset will be released upon paper approval.
+The filtered dataset will be released upon paper approval.
 
 ## Project Stages
 
@@ -16,7 +16,7 @@ This repository contains the code and data used for a research experiment that c
   - Utilization of Regex techniques to extract answers produced by each model.
 
 - **Stage 4: Results Comparison**
-  - Utilization of statistical methods such as Permutation test and Chi-test (code available in the repository) to compare the results.
+  - Utilization of statistical methods such as the Permutation test and Chi-test (code available in the repository) to compare the results.
 
 ## Models Used in the Experiment
 
