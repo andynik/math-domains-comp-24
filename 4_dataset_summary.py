@@ -6,14 +6,6 @@ MAX_LINE_WIDTH = 80  # You can adjust this value as needed
 
 # Specify the path to the PARQUET file
 parquet_file_path = 'dataset_final.parquet'
-# parquet_file_path = 'gpt4o_mini_final.parquet'
-# parquet_file_path = 'gpt4o_mini_final_regex.parquet'
-# parquet_file_path = 'numinamath_comb.parquet'
-# parquet_file_path = 'numina-tir-ans.parquet'
-# parquet_file_path = 'numina-tir-ans-cat.parquet'
-# parquet_file_path = 'numina-tir-ans-cleaned.parquet'
-# parquet_file_path = 'numina-tir-2kx4-output/numina-output-number_theory.parquet'
-# parquet_file_path = 'merged_output.parquet'
 
 # Read the PARQUET file into a DataFrame
 df = pd.read_parquet(parquet_file_path)
