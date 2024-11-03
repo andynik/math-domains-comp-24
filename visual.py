@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data from CSV files
-gpt4o_mini_results = pd.read_csv('paper3_domain-comp/datasets/gpt4o_mini_results_2kx4.csv')
-mathstral_results = pd.read_csv('paper3_domain-comp/datasets/mathstral_results_2kx4.csv')
-qwen_results = pd.read_csv('paper3_domain-comp/datasets/qwen_results_2kx4.csv')
-llama_results = pd.read_csv('paper3_domain-comp/datasets/llama_results_2kx4.csv')
+gpt4o_mini_results = pd.read_csv('datasets/gpt4o_mini_results_2kx4.csv')
+mathstral_results = pd.read_csv('datasets/mathstral_results_2kx4.csv')
+qwen_results = pd.read_csv('datasets/qwen_results_2kx4.csv')
+llama_results = pd.read_csv('datasets/llama_results_2kx4.csv')
 
 # Prepare the data by adding a 'Model' column
 gpt4o_mini_results['Model'] = 'GPT-4o-mini'
