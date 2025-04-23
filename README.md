@@ -1,8 +1,12 @@
 # Comparison of Problem-solving Performance Across Mathematical Domains With Large Language Models
 
+[![Paper](https://img.shields.io/badge/DOI-10.15407/jai2024.04.096-880808)](https://doi.org/10.15407/jai2024.04.096)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/numina-cot-2kx4)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/andynik/math-domains-comp-24)
+
 This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
 
-**Note:** The filtered dataset will be released upon paper approval.
+The Combi-Puzzles dataset is available in `JSON format` and in `Parquet format` on the [Hugging Face](https://huggingface.co/datasets/andynik/numina-cot-2kx4) repository.
 
 ## Project Stages
 
