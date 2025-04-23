@@ -29,11 +29,29 @@ The open-source models have been quantised using K-means quantisation with the h
 | [Qwen2.5-Math-7B](https://huggingface.co/QuantFactory/Qwen2.5-Math-7B-GGUF)           | 7.62B  | ✔         | Q4_K_M    | 128k           | n/a              | Alibaba Cloud  |
 | [Llama-3.1-8B-Instruct](https://huggingface.co/QuantFactory/Meta-Llama-3.1-8B-Instruct-GGUF) | 8.03B  | ✔         | Q4_K_M    | 128k           | Dec 2023         | Meta           |
 
-## Installation
+## Results
 
-To set up the environment and run the scripts, install the necessary Python libraries using the provided `requirements.txt` file:
+![Problem Example](images/correctness_rate.png)
 
-```bash
-pip install -r requirements.txt
+## Usage
+
+You are encouraged to use this dataset to further evaluate problem-solving strategies in LLMs or other domains. Please cite our paper if you publish material based on this dataset.
+
+## License
+
+This dataset is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Citation
+
+Please cite the following if you use the dataset in your work:
+
+```bibtex
+@article{nikolaiev2024comparison,
+  title={Comparison of Problem-solving Performance Across Mathematical Domains With Large Language Models},
+  author={Nikolaiev, Andrii D. and Derevianchenko, Oleksandr V.},
+  journal={Shtuchnyy intelekt},
+  year={2024},
+  pages={96--104},
+  doi={10.15407/jai2024.04.096}
+}
 ```
-
