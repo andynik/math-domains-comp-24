@@ -4,11 +4,11 @@
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/numina-cot-2kx4)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/andynik/math-domains-comp-24)
 
+## Description
+
 This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
 
-The dataset is available in `JSON` formats and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/numina-cot-2kx4) repository.
-
-## Project Stages
+### Project Stages
 
 - **Stage 1: Filtering** 
   - Filtering 8,000 problems from [NuminaMath-TIR](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR), with 2,000 problems per topic: _algebra_, _geometry_, _combinatorics_ and _number theory_.
@@ -22,9 +22,13 @@ The dataset is available in `JSON` formats and in `Parquet` formats on the [Hugg
 - **Stage 4: Results Comparison**
   - Permutation test and Chi-test to compare the results.
  
-## Results
+### Results
 
 ![Problem Example](images/correctness_rate.png)
+
+## Dataset
+
+The dataset is available in `JSON` formats and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/numina-cot-2kx4) repository.
  
 ## Experiment specifications
 
@@ -61,11 +65,11 @@ pip install -r requirements.txt
 
 You are encouraged to use this dataset to further evaluate problem-solving strategies in LLMs or other domains. Please cite our paper if you publish material based on this dataset.
 
-## License
+### License
 
 This dataset is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Citation
+### Citation
 
 Please cite the following if you use the dataset in your work:
 
