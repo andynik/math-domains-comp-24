@@ -2,11 +2,11 @@
 
 [![Paper](https://img.shields.io/badge/DOI-10.15407/jai2024.04.096-880808)](https://doi.org/10.15407/jai2024.04.096)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/numina-cot-2kx4)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/andynik/math-domains-comp-24)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/andynik/math-domains-comp-24)
 
 ## Description
 
-This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
+This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of the listed LLMs in solving complex mathematical problems.
 
 ### Project Stages
 
