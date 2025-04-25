@@ -6,7 +6,7 @@
 
 This repository contains the code and data used for a research experiment that compares LLM performances across mathematical domains. The findings contribute to understanding the capabilities and limitations of these models in solving complex mathematical problems.
 
-The Combi-Puzzles dataset is available in `JSON` formats and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/numina-cot-2kx4) repository.
+The dataset is available in `JSON` formats and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/numina-cot-2kx4) repository.
 
 ## Project Stages
 
@@ -51,7 +51,7 @@ OS kernel 6.2.0-37-generic
 
 ### Installation
 
-To set up the environment and run the scripts, install the necessary Python (v3.11.3) libraries using the provided `requirements.txt` file:
+To set up the environment and run the scripts, install the necessary Python (v3.10.12) libraries using the provided `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
